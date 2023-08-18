@@ -26,6 +26,7 @@ struct ToDoList2View: View {
                 .border(/*@START_MENU_TOKEN@*/Color.gray/*@END_MENU_TOKEN@*/, width: 1)
                 .padding(.all)
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                .font(Font.custom("Pangolin-Regular", size: 20))
               
             Toggle(isOn: $isImportant) {
                 Text("Important")

@@ -39,8 +39,8 @@ struct ContentView: View {
                         .padding(.all)
                         .frame(width: 350.0)
                         .multilineTextAlignment(.center)
-                        .font(.title2)
-                        .border(Color("red"), width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                        .font(Font.custom("Handlee-Regular", size: 25))
+                        .border(Color("red"), width: 3)
                         .foregroundColor(/*@START_MENU_TOKEN@*/Color("red")/*@END_MENU_TOKEN@*/)
                     Button("Submit") {
                         textTitle = "Welcome, \(name)"
